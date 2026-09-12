@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Tiny full-stack demo (Express + vanilla JS) wired up with CI/CD.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "audit": "npm audit --omit=dev --audit-level=high"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EhsanulHaque1/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EhsanulHaque1/test/issues"
+  },
+  "homepage": "https://github.com/EhsanulHaque1/test#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "jest": "^30.5.1",
+    "supertest": "^7.0.0"
+  }
+}
