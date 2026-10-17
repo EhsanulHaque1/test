@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/EhsanulHaque1/test#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.3.0"
   },
   "devDependencies": {
     "eslint": "^9.14.0",
